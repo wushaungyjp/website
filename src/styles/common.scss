@@ -1,0 +1,34 @@
+/* css common */
+html{ overflow: auto; }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td{ margin: 0; padding: 0; box-sizing: border-box; }
+div, p{ word-break: break-all; }
+body{
+  background: #fff;
+  font-size: 14px;
+  font-family: 'PingFangSC-Regular', 'PingFang SC', 'Microsoft YaHei',SimSun,Arial,sans-serif;
+  color: #333; /* -moz-user-select: none; user-select: none;  *//*overflow:hidden;*/
+}
+h1, h2, h3, h4, h5, h6{ font-weight: normal; font-size: 100%; }
+address, caption, cite, code, dfn, em, strong, th, var{ font-style: normal; font-weight: normal; }
+a{ color: #555; text-decoration: none; cursor: pointer; }
+a:hover{ text-decoration: none; }
+img{ border: none; }
+ol, ul, li{ list-style: none; }
+input, textarea, select, button{ font: 14px Microsoft YaHei, Arial, Helvetica; }
+textarea:focus{ outline: none; }
+input{ border: none; outline: none; }
+::-webkit-input-placeholder{ /* WebKit, Blink, Edge */ color: #999; }
+:-moz-placeholder{ /* Mozilla Firefox 4 to 18 */ color: #999; }
+::-moz-placeholder{ /* Mozilla Firefox 19+ */ color: #999; }
+:-moz-placeholder, ::-moz-placeholder{ opacity: 1; }
+:-ms-input-placeholder{ /* Internet Explorer 10-11 */ color: #999; }
+button{ outline: none; border: none; }
+table{ border-collapse: collapse; border-spacing: 0; }
+.fl{ float: left; }
+.fr{ float: right; }
+.clearfix:after{ content: ""; display: block; height: 0; clear: both; visibility: hidden; }
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
