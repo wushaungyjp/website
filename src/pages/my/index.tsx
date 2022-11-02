@@ -9,7 +9,6 @@ export default class HelloWorld extends React.Component {
     };
   }
 
-  // 测试123
   render() {
     return (
       <div
